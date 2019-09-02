@@ -1,0 +1,50 @@
+** generally we do ====> from module import library
+
+
+
+
+
+                                     work of modules
+***********************************************************************************
+***********************************************************************************
+
+
+----------------1. collections module---------------
+
+i) "deque" library
+------------------
+# used for stack and queue operations
+# time efficient for operations that are in stack and queue compared to stack and queue operations of "List"
+# used for non-multithreading
+# need to create object to use by "object name = deque()"
+# object name.methods()
+methods
+-----------------
+# append() = push and enqueue
+# pop() =pop
+# popleft() =dequeue
+
+
+
+
+----------------2. sys module  ------------
+
+1."stdout" library
+-----------------
+# used for efficient output compared to print() method
+
+methods
+---------------
+# write() = printing
+
+
+2."stdin" library
+-------------------
+# used for efficient input
+methods
+---------
+# readline() =input
+# readline().split() = for inputing maltiple input and split by space
+
+
+
