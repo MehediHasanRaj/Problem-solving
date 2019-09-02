@@ -45,6 +45,7 @@ methods
 ---------
 # readline() =input
 # readline().split() = for inputing maltiple input and split by space
+# readline().strip().split() = for removing "extra space" and "\n" with split by space
 
 
 
