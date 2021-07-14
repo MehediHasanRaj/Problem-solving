@@ -5,13 +5,12 @@
 using namespace std;
 
 void solve(){
-    loop(i,0,15)cout << 90*i<< endl; 
     
 }
 
 int main(){
     fastIO;
-    int t = 1; //cin >> t;
+    int t = 1; cin >> t;
     while(t--){
         solve();
     }
