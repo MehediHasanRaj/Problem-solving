@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "..\\.."
+		},
+		{
+			"path": "G:\\data science\\WorkDoneByMe"
 		}
 	],
 	"settings": {}

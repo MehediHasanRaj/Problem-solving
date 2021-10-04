@@ -4,17 +4,22 @@
 #define debug(x) cout << #x << " = " << x << endl
 
 using namespace std;
-
+int n;
+int arr1[n];
+int arr2[n];
 void solve(){
-    int n; cin >> n;
-    for(int i = 4; i < n; ++i){
-        cout << i << endl;
+    cin >> n;
+    for(int i = 0; i<n; ++i){
+        cin >> arr1[i];
+    }
+    for(int i = 0; i <n; ++i){
+        cin >> arr2[i];
     }
 }
 
 int main(){
     fastIO;
-    int t = 1; //cin >> t;
+    int t = 1; cin >> t;
     while(t--){
         solve();
     }
