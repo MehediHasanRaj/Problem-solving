@@ -52,6 +52,15 @@ class BST:
             return max(left_heightt, right_height) + 1
         current = self.root
         return FindHeight(current)
+    # def remove(self,x):
+    #     if self.root ==None:
+    #         print('root is emplty')
+    #     current = self.root
+    #     if self.root.val == x:
+    #         root
+    #     while True:
+    #         if current.val == x:
+    #             current
         
 
 
